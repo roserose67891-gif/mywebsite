@@ -1,0 +1,466 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.hero-page{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background-image: linear-gradient(rgba(0,0,0,0.7) 50%,rgba(0,0,0,0.9)), url(/image/NG-en-20260406-TRIFECTA-perspective_f62f73a8-88e6-4eaa-a783-3bda239dcf8a_large.jpg);
+    background-repeat: no-repeat;
+background-size: cover;
+
+
+    
+}
+
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 150px;
+    align-items: center;
+
+}
+ .nav h3{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+.nav button{
+   padding: 7px 15px; 
+   border-radius: 2px;
+   border: none;
+   background: red;
+   color: white;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 15px;
+}
+.hero-content h2{
+    color: white;
+    font-size: 50px;
+    max-width: 580px;
+    margin:auto ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hero-content p{
+    color: white;
+    margin-top: 15px;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.hero-content span {
+    color: white;
+    display: block;
+    margin-top: 35px;
+    font-size: 18px;
+}
+.hero-content a{
+    color: white;
+    text-decoration: none;
+}
+.hero-content{
+    text-align: center;
+    margin-top: 100px;
+    
+}
+.form{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 230px;
+    
+}
+.form input{
+    width: 200px;
+    height: 35px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    background: #2d2d2d;
+    
+}
+.form input::placeholder{
+    padding-left: 10px;
+    font-weight: bold;
+    color: white;
+}
+.btn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: red;
+    color: white;
+}
+.main-section{
+    background: black;
+    width: 100%;
+    min-height: 60vh;
+padding-top: 50px;
+
+}
+.section-content h3{
+color: white;
+margin: 15px 100px;
+font-size: 25px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container .m{
+    width: 250px;
+    height: 300px;
+    background-image:linear-gradient(170deg,rgba(12, 12, 159, 0.406),red 500%);
+    border-radius: 15px;
+
+    
+}
+
+
+.container{
+display: flex;
+flex-direction: row;
+gap: 15px;
+justify-content: center;
+flex-wrap: wrap;
+
+}
+
+
+.m h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.m{
+    text-align: center;
+    padding: 20px;
+}
+.m p{
+    color: white;
+    margin-top: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+.section-two{
+    display:grid;
+    gap: 20px;
+    grid-template-columns: auto auto auto auto ;
+    justify-content: center;
+    padding-top: 80px;
+    padding: 50px;
+    
+}
+.image-content img{
+border-radius: 7px;
+width: 250px;
+height: 200px;
+
+
+}
+.image-content h6{
+    color: rgba(179, 255, 0, 0.406);
+    font-size: 100px;
+    position: absolute;
+    top: 80px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.image-content {
+    position: relative;
+    transition: 2s;
+}
+.image-content:hover{
+    transform: scale(0.8);
+}
+ .footer-section{
+    width: 100%;
+    min-height: 80vh;
+    background: black;
+    margin:auto;
+
+
+ }
+ .footer-content h3{
+    color:white;
+ }
+ .w{
+    background: #2d2d2d;
+    width: 100%;
+    margin: auto;
+    
+ }
+ .block{
+    width: 80%;
+    background-color:#2d2d2d;
+    margin: auto;
+    padding: 30px;
+margin: 8px auto;
+display: flex;
+
+ }
+ .block p{
+    color: white;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ .footer-content h3{
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 23px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+    .footer-form{
+        text-align: center;
+    margin-top: 50px;
+    }
+ 
+ .footer-form p,a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+ }
+ .input-content{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+    margin-top: 30px;
+ }
+ .input-content input{
+    width: 180px;
+    height: 30px;
+outline: none;
+ }
+  .btn2{
+border: none;
+border-radius: 5px;
+background: red;
+color: white;
+padding: 10px;
+ }
+ .block:hover{
+    background: rgba(255, 255, 255, 0.116);
+ }
+   .footer-two{
+    width: 100%;
+    min-height: 70vh;
+margin-left: 120px;
+
+   }
+   .footer-two h2 a{
+    text-decoration: underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+   }
+   .footer-two h2{
+    margin-bottom: 30px;
+    margin-left: 10px;
+   }
+   .footer-item{
+    margin: 10px;
+
+   }
+   .footer-text{
+    display: flex;
+    gap: 100px;
+   }
+   .footer-item ul{
+    list-style-type: none;
+   }
+   .footer-item a{
+display: block;
+padding: 8px 0;
+text-decoration: underline;
+white-space: nowrap;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: gray;
+   }
+ @media  screen and (max-width:500px){
+.hero-page{
+    width: 100%;
+
+
+ }
+ .nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 15px;
+    align-items: center;
+
+}
+.hero-content h2{
+    color: white;
+    font-size: 32px;
+    margin:auto ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hero-content p{
+    color: white;
+    margin-top: 18px;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.hero-content span {
+    color: white;
+    display: block;
+    margin-top: 30px;
+    font-size: 19px;
+    font-weight: bold;
+}
+.form{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.btn{
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    background: red;
+    color: white;
+    margin-left: 100px;
+    padding: 15px 20px;
+}
+.form input{
+    width: 350px;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    background: #2d2d2d;
+    
+    
+}
+.hero-content{
+    text-align: center;
+    margin-top: 180px;
+    
+}
+.section-content h3{
+color: white;
+text-align: center;
+font-size: 20px;
+margin: 0;
+white-space: nowrap;
+}
+.container{
+display: flex;
+flex-direction: column;
+gap: 15px;
+justify-content: center;
+align-items: center;
+margin-top: 30px;
+
+}
+.section-two{
+    display:grid;
+    gap: 20px;
+    grid-template-columns: auto auto ;
+    justify-content: center;
+    padding-top: 80px;
+    padding: 50px;
+    
+}
+.block{
+    width: 80%;
+    background-color:#2d2d2d;
+    margin: auto;
+    padding: 30px;
+margin: 8px auto;
+display: flex;
+flex-direction: column;
+
+ }
+ .block:hover{
+    background: rgba(255, 255, 255, 0.116);
+ }
+ .footer-form p,a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px;
+ }
+ 
+ .input-content{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    gap: 50px;
+ }
+ .btn2{
+border: none;
+border-radius: 5px;
+background: red;
+color: white;
+width: 150px;
+height: 39px;
+margin:auto;
+ }
+ .input-content input::placeholder{
+    padding-left: 20px;
+    font-weight: bold;
+    color: black;
+ }
+ .footer-two{
+    width: 100%;
+    min-height: 60vh;
+margin: 0;
+   }
+   .footer-two h2{
+margin-top: 30px;
+margin-bottom: 10px;
+   }
+   .footer-text{
+    display: flex;
+    flex-direction: column;
+gap: 10px;
+    
+
+   }
+   .footer-item{
+    margin-left: 30px;
+
+   }
+   .footer-item a{
+display: block;
+padding:1px 0;
+text-decoration: underline;
+white-space: nowrap;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: gray;
+font-size: 15px;
+   }
+    .footer-item ul{
+    list-style-type: none;
+
+   }
+   .input-content{
+display: flex;
+flex-direction: column;
+   }
+   .input-content input{
+    width: 300px;
+    height: 50px;
+outline: none;
+background: #2d2d2d;
+border: none;
+margin: auto;
+ }
+ .input-content input::placeholder{
+    color: white;
+ } 
+ 
+}
+ 
+ 
